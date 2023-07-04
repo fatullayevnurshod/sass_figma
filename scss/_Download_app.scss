@@ -1,0 +1,60 @@
+.Download_app {
+  color: $color-footer-a;
+  h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+  }
+  p {
+    width: 560px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: center;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 53px;
+  }
+}
+.email {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+
+  input[type="email"] {
+    width: 495px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 155%;
+    letter-spacing: 0.32px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  input[type="submit"] {
+    display: flex;
+    height: 56px;
+    padding: 16px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: $color-h;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 155%;
+    letter-spacing: 0.32px;
+    color: $color-footer-a;
+  }
+  + p {
+    width: 600px;
+    margin-bottom: 0;
+  }
+}
+.fon_3 {
+  background-color: #007aff;
+  padding: 96px 85px;
+}
