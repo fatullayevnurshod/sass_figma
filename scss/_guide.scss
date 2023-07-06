@@ -1,5 +1,5 @@
 .guide {
-  padding: 112px;
+  padding: 112px 0;
   h2 {
     width: 815px;
     text-align: center;
@@ -20,8 +20,7 @@
 }
 .guide_3 {
   display: flex;
-  // justify-content: space-between;
-  column-gap: 20px;
+  justify-content: space-between;
   margin-top: 130px;
 
   .guide_1 {
